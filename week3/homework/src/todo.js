@@ -1,7 +1,8 @@
+/* eslint-disable comma-dangle */
 'use strict';
 
 const fs = require('fs');
-const uuid = require('uuid/v4');
+const { v4: uuid } = require('uuid');
 
 const DEFAULT_ENCODING = 'utf8';
 
