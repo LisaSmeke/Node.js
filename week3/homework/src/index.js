@@ -2,7 +2,7 @@
 
 const Express = require('express');
 
-// import our CRUD actions
+// import CRUD actions
 const {
   createTodo,
   readTodos,
