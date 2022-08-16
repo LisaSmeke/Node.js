@@ -1,12 +1,12 @@
 [
   {
     "id": "bab8bb12-d51f-4872-b67a-2f604ec70696",
-    "done": false,
+    "done": "true",
     "description": "learn html"
   },
   {
     "id": "7774ce19-99b6-4545-8b6f-752fa7395c4d",
-    "done": false,
+    "done": "true",
     "description": "learn css"
   },
   {
