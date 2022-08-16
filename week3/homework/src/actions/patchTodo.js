@@ -1,12 +1,12 @@
 'use strict';
 
 function patchTodo(todo, request, response) {
-  const { todo: stupidVariable } = request.body;
+  const { todo: changeTodo } = request.body;
 
   const id = request.params.id;
 
   todo
-    .patchTodo(id, stupidVariable.description, stupidVariable.done)
+    .patchTodo(id, changeTodo.description, changeTodo.done)
     .then((todo) => {
       response.status(200);
       response.json({ todo });
