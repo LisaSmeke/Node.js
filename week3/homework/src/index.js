@@ -10,6 +10,7 @@ const {
   updateTodo,
   deleteTodo,
   clearTodos,
+  // eslint-disable-next-line comma-dangle
   patchTodo,
 } = require('./actions');
 
